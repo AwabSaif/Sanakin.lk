@@ -1,0 +1,9 @@
+.site-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    
+   padding-bottom: 3.125rem ;
+}

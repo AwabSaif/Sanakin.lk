@@ -1,0 +1,15 @@
+.homeposter {
+    width: 69.375rem;
+    height: 21.9145rem;
+    border-radius: 6px;
+    background: url('../../../assets/image/poster 1.png'), lightgray 50% / cover no-repeat;
+}
+
+/* media queries */
+  
+@media screen and (max-width: 780px){ 
+.homeposter {
+    width: 100%;
+    margin-left: 3.5rem;
+}
+}

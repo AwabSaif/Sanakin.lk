@@ -1,0 +1,52 @@
+.mostpopular {
+    text-align: left;
+}
+.mostpopular h2 {
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.mostpopular-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin: 0  ;
+    padding: 0   ;
+}
+
+/* media queries */
+  
+@media screen and (max-width: 780px){
+    .mostpopular {
+        margin-left: 3.5rem;
+    }
+    .mostpopular-items {
+        width: 480px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .mostpopular-items::-webkit-scrollbar {
+       
+        height: 0.5rem;
+        
+    }
+
+    .mostpopular-items::-webkit-scrollbar-thumb,
+    .mostpopular-items::-webkit-scrollbar-track {
+        border-radius: 1.25rem;
+    }
+
+    .mostpopular-items::-webkit-scrollbar-thumb {
+        background: #EF8A2D;
+    }
+
+    .mostpopular-items::-webkit-scrollbar-track {
+        background: #FDE364;
+    }
+}

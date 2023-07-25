@@ -1,0 +1,92 @@
+.todaytestdeals{
+    text-align: left;
+}
+.todaytestdeals h2 {
+    padding-top: 0;
+    margin-top: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 34rem;
+    
+}
+.todaytestdeals-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin: 0  ;
+    padding: 0   ;
+}
+.todaytestdeals-nav {
+    margin: 0 0.62rem;
+    margin-bottom: 1.75rem;
+    
+}
+.todaytestdeals-nav-item {
+    display: inline;
+    margin: 0 ;
+    margin-left: -2.18rem;
+    
+    
+}
+.todaytestdeals-link{
+    display: flex;
+    align-items: flex-end;
+    margin: 2.5rem 31rem;
+    color: #FF9C00;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    text-decoration: none;
+}
+.todaytestdeals-icons{
+    
+    width: 0.9375rem;
+    height: 0.9375rem;
+    flex-shrink: 0;
+}
+
+/* media queries */
+  
+@media screen and (max-width: 780px){
+    .todaytestdeals {
+        margin-left: 7.5rem;
+    }
+    .todaytestdeals-items {
+        width: 480px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      
+    }
+    .todaytestdeals-link{
+        display: flex;
+        align-items: flex-end;
+        margin: 2.5rem 11rem;
+       
+    }
+
+    .todaytestdeals-items::-webkit-scrollbar {
+       
+        height: 0.5rem;
+        
+    }
+
+    .todaytestdeals-items::-webkit-scrollbar-thumb,
+    .todaytestdeals-items::-webkit-scrollbar-track {
+        border-radius: 1.25rem;
+    }
+
+    .todaytestdeals-items::-webkit-scrollbar-thumb {
+        background: #EF8A2D;
+    }
+
+    .todaytestdeals-items::-webkit-scrollbar-track {
+        background: #FDE364;
+    }
+}

@@ -1,0 +1,89 @@
+.categories {
+ text-align: left;
+}
+
+.categories h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 34rem;
+
+
+}
+
+.categories-items {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+.categorie-tech {
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #FDE364 0%, #FFD835 100%);
+}
+
+.categorie-electoins {
+
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #FF9254 0%, #EF8A2D 100%);
+}
+
+.categorie-health {
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #E9E9E9 0%, #FFF 100%);
+
+}
+
+.categorie-fashion {
+    background: url('../../../assets/image/fasion 1.png'), lightgray 50% / cover no-repeat;
+}
+
+.categorie-furnitrue {
+    background: url('../../../assets/image/furniture 1.png'), lightgray 50% / cover no-repeat;
+}
+
+.categorie-sports {
+    background: url('../../../assets/image/sport 1.png'), lightgray 50% / cover no-repeat;
+
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 780px) {
+    .categories {
+        margin-left: 7.5rem;
+       }
+    .categories-items {
+        width: 480px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      
+      
+    }
+
+    .categories-items::-webkit-scrollbar {
+        
+        height: 0.5rem;
+        
+    }
+
+    .categories-items::-webkit-scrollbar-thumb,
+    .categories-items::-webkit-scrollbar-track {
+        border-radius: 1.25rem;
+    }
+
+    .categories-items::-webkit-scrollbar-thumb {
+        background: #EF8A2D;
+    }
+
+    .categories-items::-webkit-scrollbar-track {
+        background: #FDE364;
+    }
+
+
+}

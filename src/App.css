@@ -1,0 +1,23 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* media queries */
+  
+@media screen and (min-width:767px) and (max-width:1023px){
+    
+}
+@media screen and (max-width: 767px){
+    body {
+        width: 100%;
+        margin: 0 ;
+        padding: 0;
+    }
+}

@@ -1,0 +1,33 @@
+.trandingproducts {
+    text-align: left;
+}
+.trandingproducts h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 34rem;
+}
+
+.trandingproducts-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+
+/* media queries */
+  
+@media screen and (max-width: 780px){
+
+    .trandingproducts
+    {
+        margin-left: 7.5rem;
+    }
+    .trandingproducts-items {
+        display: block;
+        margin-left: 1.875rem;
+    }
+}
