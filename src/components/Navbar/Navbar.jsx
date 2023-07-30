@@ -17,8 +17,8 @@ function Navbar() {
 
 
     return (
-        <div className="App">
-            <header className="App-header">
+      
+      
 
 
                 <nav className={`${styles.navbar}`}>
@@ -26,13 +26,18 @@ function Navbar() {
                     {/* logo */}
                     <div className={`${styles.logorow}`}>
 
-                    <a href='#home' className={`${styles.logo}`}>
-                        <img src={logoImg} alt="logo" className="logo" />
-                    </a>
+                        <a href='#home'>
+                            <img src={logoImg} alt="logo"  className={`${styles.logo}`} />
+                        </a>
                     </div>
 
+                    <form className={`${styles.navsearch}`}>
+                        <input className={`${styles.navinput}`} type="search" placeholder="Search Here Shop or Product" />
+                        <Button size='nav_search' variant='primary' className={`${styles.navbtnse}`}>
+                            Search
+                        </Button>
+                    </form>
 
-        
 
                     <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
                         <li onClick={removeActive}>
@@ -62,7 +67,7 @@ function Navbar() {
                         </li>
                     </ul>
 
-                  
+
                     <div className={`${styles.hamburger} ${isActive ? styles.active : ''}`} onClick={toggleActiveClass}>
                         <span className={`${styles.bar}`}></span>
                         <span className={`${styles.bar}`}></span>
@@ -70,9 +75,8 @@ function Navbar() {
                     </div>
                 </nav>
 
-
-            </header>
-        </div>
+    
+      
     );
 }
 

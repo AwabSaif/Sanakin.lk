@@ -55,21 +55,17 @@
 /* media queries */
 
 @media screen and (max-width: 780px) {
-    .categories {
-        margin-left: 7.5rem;
-       }
+    .categories h2{
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+    }
     .categories-items {
-        width: 480px;
         overflow-x: scroll;
         overflow-y: hidden;
       
-      
     }
-
     .categories-items::-webkit-scrollbar {
-        
         height: 0.5rem;
-        
     }
 
     .categories-items::-webkit-scrollbar-thumb,

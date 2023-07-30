@@ -73,6 +73,7 @@
 
 @media screen and (max-width: 780px) {
   .hero {
+    display: none;
     width: 90%;
     background: lightgray 50% / cover no-repeat;
     border-radius: 6px;

@@ -60,6 +60,7 @@
 @media screen and (max-width: 780px){
     
     .shop {
+        max-width:100%;
         width: 13.375rem;
         height: 5rem;
         flex-shrink: 0; 

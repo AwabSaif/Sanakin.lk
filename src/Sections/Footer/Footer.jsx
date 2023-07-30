@@ -5,8 +5,8 @@ import logoImg from '../../assets//image/sanakilogo\ 2.png'
 
 export default function Footer() {
   return (
-    <footer>
-      <div className='footer-con'>
+ 
+      <footer className='footer-con'>
 
         <div className='footer-contact'>
             <img src={logoImg} />
@@ -42,8 +42,8 @@ export default function Footer() {
             <h2>News Latter Subscription</h2>
             <p>Get the Latest Products & Best Deals in Your Inbox as First Person</p>
            
-            <form className="pt-site-footer__submit">
-            <input type="email" placeholder="Your Email Address" />
+            <form className="footer-submit">
+            <input className='footer-inpt' type="email" placeholder="Your Email Address" />
             <Button  size='sm' variant='primary' className='emil-btn'>
             Submit
             </Button>
@@ -52,8 +52,8 @@ export default function Footer() {
         </div>
 
         
-      </div>
+      </footer>
 
-    </footer>
+   
   )
 }

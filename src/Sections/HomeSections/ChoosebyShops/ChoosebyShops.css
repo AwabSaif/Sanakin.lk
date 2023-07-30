@@ -21,15 +21,13 @@
 /* media queries */
   
 @media screen and (max-width: 780px){
-    .chooseby {
-        margin-left: 7.5rem;
+    .chooseby h2{
+        padding-top: .8rem;
+        padding-bottom: .8rem;
     }
     .chooseby-items {
-        width: 480px;
         overflow-x: scroll;
         overflow-y: hidden;
-    
-      
     }
 
     .chooseby-items::-webkit-scrollbar {

@@ -7,3 +7,13 @@ main {
     
    padding-bottom: 3.125rem ;
 }
+
+
+/* media queries */
+  
+@media screen and (max-width: 780px){
+
+   .site-wrapper {
+    max-width:100%;
+   }
+}

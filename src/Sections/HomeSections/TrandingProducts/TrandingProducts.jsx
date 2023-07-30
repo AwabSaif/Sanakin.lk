@@ -1,6 +1,5 @@
 import React from 'react'
 import './TrandingProducts.css'
-import Button from '../../../components/Button/Button'
 import ProductCategory from '../../../components/ProductCategory/ProductCategory'
 
 

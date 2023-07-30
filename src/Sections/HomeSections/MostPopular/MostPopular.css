@@ -22,19 +22,18 @@
 /* media queries */
   
 @media screen and (max-width: 780px){
-    .mostpopular {
-        margin-left: 3.5rem;
+    .mostpopular h2{
+        padding-top: .8rem;
+        padding-bottom: .8rem;
     }
     .mostpopular-items {
-        width: 480px;
         overflow-x: scroll;
         overflow-y: hidden;
     }
 
     .mostpopular-items::-webkit-scrollbar {
-       
         height: 0.5rem;
-        
+  
     }
 
     .mostpopular-items::-webkit-scrollbar-thumb,

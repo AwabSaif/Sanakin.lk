@@ -19,7 +19,11 @@
 
 @media screen and (max-width: 780px){
    .home-container { 
-      width: 100%;
+      max-width: 100%;
       margin: 0;
+    
+  }
+  .home-div {
+   max-width:100%;
    }
 }

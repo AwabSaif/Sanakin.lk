@@ -35,14 +35,15 @@
 /* media queries */
   
 @media screen and (max-width: 780px){ 
-    .productcategory {  
-        width: 25rem;
+    .productcategory { 
+        max-width:100%; 
+        width: 22rem;
         height: 15.3125rem;
         margin-top: 1rem;
     }
     .productcategory-item {
     
-        width: 25rem;
+        width: 22rem;
         height: 5rem;
       
     

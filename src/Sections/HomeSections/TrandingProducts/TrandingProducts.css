@@ -22,12 +22,16 @@
   
 @media screen and (max-width: 780px){
 
-    .trandingproducts
-    {
-        margin-left: 7.5rem;
+    .trandingproducts h2{
+        padding-top: .8rem;
+        padding-bottom: .8rem;
     }
     .trandingproducts-items {
         display: block;
-        margin-left: 1.875rem;
+      
+    }
+    .trandingproducts h2 {
+     
+        width: 16rem;
     }
 }
