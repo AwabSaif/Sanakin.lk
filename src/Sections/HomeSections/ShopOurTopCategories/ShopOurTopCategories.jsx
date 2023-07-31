@@ -3,7 +3,7 @@ import './ShopOurTopCategories.css'
 import thchImg from '../../../assets/image/lap 1.png'
 import electoins from '../../../assets/image/20220506_Batch148_12_watch 1.png'
 import health from '../../../assets/image/Cosmetics-Mockup 1.png'
-import Card from '../../../components/Card/Card'
+import Card from '../../../components/Home/Card/Card'
 
 
 

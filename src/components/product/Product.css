@@ -50,7 +50,8 @@
     .product-img{
         max-width: 10.375rem;
         height: 10.375rem;
-        background:50% / cover no-repeat;
+        background: url('../../assets/image/products 1.png'),50% / cover no-repeat;
+
     }
     .product-text {
         max-width: 10.375rem;

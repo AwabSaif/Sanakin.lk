@@ -1,0 +1,67 @@
+
+.herohome h3 {
+    text-align: left;
+    width: 24.25rem;
+    height: 5.5rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+  }
+  
+  .herohome span {
+    color: #FF9C00;
+  
+  }
+  
+  
+  
+  .search-input {
+    margin-right: 500px;
+    width: 22.25rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    background: rgba(0, 0, 0, 0.20);
+    border: none;
+    backdrop-filter: blur(20px);
+  }
+  
+  .search-input:focus {
+    outline: none;
+  }
+  
+  .search-input::placeholder {
+    padding-left: 1.5rem;
+    color: white;
+  }
+  
+  .serach-btn {
+    position: absolute;
+      right: 30.2rem;
+      top: 50%;
+      transform: translateY(-50%);
+  
+  }
+  
+  .search-input__submit {
+    position: relative;
+    display: inline-block;
+  
+  }
+
+
+  @media screen and (max-width: 780px) {
+    .search-input__submit {
+      display: none;
+    }
+
+    .herohome h3 {
+      font-size: 2rem;
+    }
+
+  }
+  

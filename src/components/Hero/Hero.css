@@ -1,0 +1,35 @@
+.hero {
+  width: 69.25rem;
+  height: 28.125rem;
+  flex-shrink: 0;
+  background: url('../../assets/image/Untitled-1 1.png'), lightgray 50% / cover no-repeat;
+  border-radius: 6px;
+  margin-top: 1.56rem;
+
+
+}
+
+.hero-item {
+  margin: 9rem 9rem 39.13rem 5.87rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 780px) {
+  .hero {
+    width: 90%;
+    background: url('../../assets/image/Untitled-1 1.png'), lightgray 50% / cover no-repeat;
+    border-radius: 6px;
+    height: 13rem;
+
+  }
+
+  .hero-item {
+
+    margin: 0 94.5px;
+    margin-top: 3rem;
+    
+  }
+
+  
+}

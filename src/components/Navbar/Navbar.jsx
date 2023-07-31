@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styles from './Navbar.module.css';
+import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
 import logoImg from '../../assets/image/sanakilogo 1.png'
 
@@ -26,9 +27,9 @@ function Navbar() {
                     {/* logo */}
                     <div className={`${styles.logorow}`}>
 
-                        <a href='#home'>
+                        <Link to='/'>
                             <img src={logoImg} alt="logo"  className={`${styles.logo}`} />
-                        </a>
+                        </Link>
                     </div>
 
                     <form className={`${styles.navsearch}`}>
@@ -41,19 +42,19 @@ function Navbar() {
 
                     <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
                         <li onClick={removeActive}>
-                            <a href='#home' className={`${styles.navLink}`}>Home</a>
+                            <Link to='/' className={`${styles.navLink}`}>Home</Link>
                         </li>
                         <li onClick={removeActive}>
-                            <a href='#home' className={`${styles.navLink}`}>Shop Online</a>
+                            <Link to='/shoponline' className={`${styles.navLink}`}>Shop Online</Link>
                         </li>
                         <li onClick={removeActive}>
-                            <a href='#home' className={`${styles.navLink}`}>What's New</a>
+                            <Link to='#home' className={`${styles.navLink}`}>What's New</Link>
                         </li>
                         <li onClick={removeActive}>
-                            <a href='#home' className={`${styles.navLink}`}>Contact</a>
+                            <Link to='#home' className={`${styles.navLink}`}>Contact</Link>
                         </li>
                         <li onClick={removeActive}>
-                            <a href='#home' className={`${styles.navLink}`}>About us</a>
+                            <Link to='#home' className={`${styles.navLink}`}>About us</Link>
                         </li>
                         <li onClick={removeActive}>
                             <div className={`${styles.navbtn}`}>

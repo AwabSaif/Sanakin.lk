@@ -1,5 +1,5 @@
 
-.shop {
+.shop-card {
     width: 16.375rem;
     height: 5rem;
     flex-shrink: 0; 
@@ -59,7 +59,7 @@
   
 @media screen and (max-width: 780px){
     
-    .shop {
+    .shop-card {
         max-width:100%;
         width: 13.375rem;
         height: 5rem;

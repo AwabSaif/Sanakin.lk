@@ -1,56 +1,62 @@
 import React from 'react'
-import './ChoosebyShops.css'
+import './ChoosebyShopsOnline.css'
+import ChoosebyShops from '../../HomeSections/ChoosebyShops/ChoosebyShops'
 import shopImage from '../../../assets/image/shopping-bag 1.svg'
 import CardShop from '../../../components/Home/CardShop/CardShop'
+import { Link } from 'react-router-dom'
+import ArrowIcons from '../../../components/ArrowIcons/ArrowIcons'
 
-export default function ChoosebyShops() {
+export default function ChoosebyShopsOnline() {
   return (
-    <div className='chooseby' >
-        <h2>Choose by Shops</h2>
+    <div className='choosebyohopsonline' >
 
-        <div className='chooseby-items' >
-          <CardShop 
-          image={shopImage}
-          name='Shop Name'
-          Product='24 Products'
-        />
-          <CardShop 
-          image={shopImage}
-          name='Shop Name'
-          Product='24 Products'
-        />
-          <CardShop 
-          image={shopImage}
-          name='Shop Name'
-          Product='24 Products'
-        />
-          <CardShop 
-          image={shopImage}
-          name='Shop Name'
-          Product='24 Products'
-        />
-          <CardShop 
-          image={shopImage}
-          name='Shop Name'
-          Product='24 Products'
-        />
-          <CardShop 
-          image={shopImage}
-          name='Shop Name'
-          Product='24 Products'
-        />
-          <CardShop 
-          image={shopImage}
-          name='Shop Name'
-          Product='24 Products'
-        />
-          <CardShop 
-          image={shopImage}
-          name='Shop Name'
-          Product='24 Products'
-        />
+      <h2>Choose by Shops</h2>
 
-        </div>
+      <div className='choosebyohopsonline-items' >
+        <CardShop
+          image={shopImage}
+          name='Shop Name'
+          Product='24 Products'
+        />
+        <CardShop
+          image={shopImage}
+          name='Shop Name'
+          Product='24 Products'
+        />
+        <CardShop
+          image={shopImage}
+          name='Shop Name'
+          Product='24 Products'
+        />
+        <CardShop
+          image={shopImage}
+          name='Shop Name'
+          Product='24 Products'
+        />
+        <CardShop
+          image={shopImage}
+          name='Shop Name'
+          Product='24 Products'
+        />
+        <CardShop
+          image={shopImage}
+          name='Shop Name'
+          Product='24 Products'
+        />
+        <CardShop
+          image={shopImage}
+          name='Shop Name'
+          Product='24 Products'
+        />
+        <CardShop
+          image={shopImage}
+          name='Shop Name'
+          Product='24 Products'
+        />
+      </div>
+      <div className='choosebyohopsonline-link'>
+        <Link>Explore More<ArrowIcons /></Link>
+      </div>
     </div>
   )
 }

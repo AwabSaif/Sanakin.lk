@@ -1,6 +1,6 @@
 import React from 'react'
 import './BestDealsForYou.css'
-import Product from '../../../components/product/product'
+import Product from '../../../components/product/Product'
 import proIMg from '../../../assets/image/products 1.png'
 
 export default function BestDealsForYou() {

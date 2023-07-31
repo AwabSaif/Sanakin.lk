@@ -1,0 +1,25 @@
+.star {
+    width: 1.5625rem;
+    height: 1.5625rem;
+    flex-shrink: 0;
+    cursor: pointer;
+    user-select: none;
+    color: #FFC05C;
+    margin: .25rem;
+ 
+}
+
+
+.star.filled {
+    color: #FF9C00;
+   
+}
+
+/* media queries */
+  
+@media screen and (max-width: 780px){
+    .star {
+        width: 1.2rem;
+        margin: 0;
+    }
+}        

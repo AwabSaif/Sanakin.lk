@@ -1,0 +1,133 @@
+
+.shop {
+    width: 69.25rem;
+    margin-bottom: 0;
+}
+.shop-info, .shop-title {
+    width: 69.25rem;
+}
+.shop-title {
+    display: flex;
+    margin-left: 5.69rem;
+}
+
+.shop a {
+    margin-left: 22.99rem;
+    margin-top: 2.1rem;
+    color: #FF9C00;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.shop-star  {
+    margin-top: -2rem;
+}
+.shop-title-image {
+    width: 16.5625rem;
+    height: 16.5625rem;
+    margin-top: -7.5rem;
+    flex-shrink: 0;
+    border-radius: 9.3125rem;
+    border: 5px solid #FFF;
+    background: url('../../../assets/image/products 12.png'), lightgray 50% / cover no-repeat;
+}
+.shop-title-name ,.shop-title-renk ,.shop-info-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.shop-title-name {
+    color: #000;
+    font-size: 2rem;
+
+}
+.shop-title-g2 {
+    display: flex;
+}
+
+
+.shop-title-renk {
+    width: 4.5625rem;
+    height: 1.5625rem;
+    margin-top: 2.45rem;
+    margin-left: 1.25rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    background: #B3F594;
+    color: #000;
+    font-size: 1rem;
+
+}
+.shop-info {
+ text-align: left;   
+}
+
+.shop-info-title {
+    color: #000;
+    font-size: 1.25rem;
+
+}
+.shop-info-desc {
+    color: #3E3E3E;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* media queries */
+  
+@media screen and (max-width: 780px){
+    .shop {
+        width: 90%;
+
+    
+    }
+   
+    .shop-title {
+        display: flex;
+        margin-left: 0.2rem;
+    }
+    
+    .shop a {
+        margin-left:1rem;
+        margin-top: 2.1rem;
+        font-size: .9rem;
+
+    }
+    .shop-star  {
+        margin-top: 0;
+        padding: 0;
+        display: block;
+   
+    }
+    .shop-title-g2 {
+        display: block;
+        margin-top: -1.875rem;
+    }
+    .shop-title-image {
+        width: 7rem;
+        height: 7rem;
+        margin-top: -3.5rem;
+        
+    }
+    
+.shop-title-name {
+ 
+    font-size: 1.2rem;
+
+}
+
+.shop-title-renk {
+    width: 3.5625rem;
+    height: 1.225rem;
+  
+
+}
+}

@@ -1,8 +1,7 @@
 .footer-con{
     display: flex;
-    width: 90rem;
-    text-align: left;
     width: 100%;
+    text-align: left;
     height: 26rem;
     flex-shrink: 0;
     background: #393434;
@@ -107,6 +106,7 @@ footer h2 {
   
     .footer-con{
         height: 100%;
+        width: 90rem;
         margin-left:auto;
         margin-right:auto;
         padding: 0 1rem ;

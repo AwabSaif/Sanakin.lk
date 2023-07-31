@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProductCategory.css'
-import Button from '../Button/Button'
+import Button from '../../Button/Button'
 
 
 export default function ProductCategory() {

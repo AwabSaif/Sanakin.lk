@@ -1,6 +1,6 @@
 import React from 'react'
 import './TrandingProducts.css'
-import ProductCategory from '../../../components/ProductCategory/ProductCategory'
+import ProductCategory from '../../../components/Home/ProductCategory/ProductCategory'
 
 
 export default function TrandingProducts() {

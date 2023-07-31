@@ -1,9 +1,10 @@
 import React from 'react'
 import './TodayBestDeals.css'
 import Button from '../../../components/Button/Button'
-import Product from '../../../components/product/product'
+import Product from '../../../components/product/Product'
 import proIMg from '../../../assets/image/products 1.png'
-import { FaArrowRight } from "react-icons/fa";
+import { Link } from 'react-router-dom'
+import ArrowIcons from '../../../components/ArrowIcons/ArrowIcons'
 
 export default function TodayBestDeals() {
   return (
@@ -115,7 +116,7 @@ export default function TodayBestDeals() {
 
       </div>
       
-        <a className='todaytestdeals-link' href="">Explore More<FaArrowRight className='todaytestdeals-icons' /></a>
+        <Link className='todaytestdeals-link' href="">Explore More<ArrowIcons/></Link>
       
     </div>
   )
