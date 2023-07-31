@@ -15,6 +15,7 @@ function Navbar() {
     const removeActive = () => {
         setIsActive(false)
     }
+    
 
 
     return (
@@ -42,7 +43,7 @@ function Navbar() {
 
                     <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
                         <li onClick={removeActive}>
-                            <Link to='/' className={`${styles.navLink}`}>Home</Link>
+                            <Link to='/' className={`${styles.navLink}${isActive ? styles.activelink : ''}`}>Home</Link>
                         </li>
                         <li onClick={removeActive}>
                             <Link to='/shoponline' className={`${styles.navLink}`}>Shop Online</Link>
@@ -54,7 +55,7 @@ function Navbar() {
                             <Link to='#home' className={`${styles.navLink}`}>Contact</Link>
                         </li>
                         <li onClick={removeActive}>
-                            <Link to='#home' className={`${styles.navLink}`}>About us</Link>
+                            <Link to='/aboutus' className={`${styles.navLink}`}>About us</Link>
                         </li>
                         <li onClick={removeActive}>
                             <div className={`${styles.navbtn}`}>

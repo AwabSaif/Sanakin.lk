@@ -107,6 +107,10 @@ a {
   margin-left: -1rem;
 }
 
+.activelink {
+  color: #FF9C00;
+}
+
 /* media queries */
 
 @media screen and (max-width: 780px) {
