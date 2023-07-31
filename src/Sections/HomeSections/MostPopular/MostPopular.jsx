@@ -1,6 +1,6 @@
 import React from 'react'
 import './MostPopular.css'
-import Product from '../../../components/product/product'
+import Product from '../../../components/product/Product'
 import productImag from '../../../assets/image/products 1.png'
 
 export default function MostPopular() {
