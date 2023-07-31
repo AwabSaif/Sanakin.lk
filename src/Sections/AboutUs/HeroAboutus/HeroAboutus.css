@@ -1,0 +1,22 @@
+
+.heroabuotus p ,.heroabuotus h2{
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+}
+.heroabuotus h2 {
+    width: 100%;
+    color: #000;
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+.heroabuotus p {
+    margin-top: 0;
+    color: #3E3E3E;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
